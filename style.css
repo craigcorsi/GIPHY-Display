@@ -1,0 +1,21 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-1-4, .col-3-4 {
+    display: inline-block;
+    margin: 0;
+}
+
+.col-1-4 {
+    width: 24%;
+}
+
+.col-3-4 {
+    width: 74%;
+}
+
+h1 {
+    color: red;
+}
