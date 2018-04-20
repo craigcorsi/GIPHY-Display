@@ -28,13 +28,20 @@ function displayImages(data) {
     for (var i = 0; i < l; i++) {
         var url = data[i].images.fixed_height.url;
         var url_still = data[i].images.fixed_height_still.url;
+
+        var panel = $('<div>').attr('class', 'gif-panel');
+
         var image = $('<img>').attr({
             'src': url_still,
             'data-state': 'still',
             'data-still': url_still,
             'data-animated': url
         });
-        $('#imagesHere').append(image);
+
+        panel.append(image);
+        panel.append($('<h4>').text(data[i].rating));
+
+        $('#imagesHere').append(panel);
     }
 }
 
