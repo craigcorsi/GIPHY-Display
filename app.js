@@ -2,7 +2,7 @@
 var apiKey = 'irKsuYqDdx0NOhuarY8zv12EF5Jp48jk';
 
 // array of search topics, dynamically appended
-var topics = ['burgers', 'pastrami', 'hoagie'];
+var topics = ['physics', 'thermodynamics', 'calculus'];
 
 // add a button with a search term to the DOM
 function addButton (searchTerm) {

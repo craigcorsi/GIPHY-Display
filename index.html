@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1.0, initial-scale=1.0">
@@ -7,34 +8,35 @@
     <title>GIPHY Image Display</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <section id="searchTerms">
-        <h1>GIPHY Image Display</h1>
-        <p>Select a tag to generate GIF images!</p>
-        <div id="buttonsHere">
-            <!-- Dynamically populated with buttons labeled by GIPHY search terms -->
+    <h1>GIPHY SUPER SCIENCE Display</h1>
 
+    <section id="searchTerms">
+        <div class="col-3-4 menu-panel">
+            <p>Select a tag to generate science-themed GIF images!</p>
+            <div id="buttonsHere">
+                <!-- Dynamically populated with buttons labeled by GIPHY search terms -->
+
+            </div>
+        </div><div class="col-1-4 menu-panel" id="searchBar">
+            <!-- option to add additional topics-->
+            <h4>Add a topic</h4>
+            <input type="text" id="addTerm">
+            <button id="buttonSubmit">Submit</button>
         </div>
-        
+
     </section>
 
     <section class="2col">
-        <div class="col-3-4" id="imagesHere">
+        <div id="imagesHere">
             <!-- Dynamically populated with GIF images. This is the result of the $.ajax call in app.js -->
 
 
 
 
-        </div><!--
-     --><div class="col-1-4" id="searchBar">
-            <!-- search bar to add a search term to the list-->
-            <h4>Add an animal</h4>
-            <input type="text" id="addTerm">
-            <button id="buttonSubmit">Submit</button>
         </div>
-
-
     </section>
 
 
@@ -44,4 +46,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
+
 </html>
