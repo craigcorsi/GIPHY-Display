@@ -2,24 +2,26 @@ body {
     width: 80%;
     margin: 0 auto;
     background-image: url('bg.jpg');
+    font-family: Courier, sans-serif;
 }
 
-.col-1-4, .col-3-4 {
+.col-short, .col-long {
     display: inline-block;
+    vertical-align: top;
     margin: 0;
 }
 
-.col-1-4 {
-    width: 23%;
+.col-short {
+    width: 35%;
 }
 
-.col-3-4 {
-    width: 68%;
+.col-long {
+    width: 55%;
 }
 
 .menu-panel {
     height: 150px;
-    background-color: #aaf;
+    background-color: #dde;
     padding: 0 15px;
     border: 1px solid black;
     border-radius: 25px;
@@ -27,10 +29,27 @@ body {
 }
 
 h1 {
-    color: red;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #dde;
 }
 
 img {
     border: 1px solid black;
     margin: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 4px 8px;
+    margin: 2px;
+}
+
+input {
+    width: 90%;
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 20px;
 }
