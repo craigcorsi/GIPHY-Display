@@ -25,7 +25,7 @@ body {
     padding: 0 15px;
     border: 1px solid black;
     border-radius: 25px;
-    margin: 0 5px;
+    margin: 5px;
 }
 
 h1 {
@@ -35,6 +35,7 @@ h1 {
     padding: 10px;
     font-size: 30px;
     background-color: #dde;
+    margin: 5px;
 }
 
 img {
